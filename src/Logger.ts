@@ -8,15 +8,10 @@ import { Message } from "./Message.ts";
  */
 export class Logger {
   /**
-   * Creates an instance of Logger.
+   * Logs the message to the console.
    * @param {Message} message - The message object to be logged.
    */
-  constructor(private message: Message) {}
-
-  /**
-   * Logs the message to the console.
-   */
-  log() {
-    console.log(this.message.getContent());
+  log(message: Message) {
+    console.log(message.getContent());
   }
 }
