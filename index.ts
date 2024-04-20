@@ -1,6 +1,6 @@
-import { Logger } from "./src/Logger.ts";
 import { Message } from "./src/Message.ts";
+import { LoggerService } from "./src/LoggerService.ts";
 
 const message = new Message("Hello, world!");
-const logger = new Logger();
-logger.log(message);
+const service = new LoggerService();
+service.logMessage(message);

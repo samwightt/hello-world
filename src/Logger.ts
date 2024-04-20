@@ -1,7 +1,6 @@
 /**
  * Logger class for logging messages to the console.
  */
-import { Message } from "./Message.ts";
 
 /**
  * Logger class for logging messages to the console.
@@ -9,9 +8,9 @@ import { Message } from "./Message.ts";
 export class Logger {
   /**
    * Logs the message to the console.
-   * @param {Message} message - The message object to be logged.
+   * @param {string} message - The message string to be logged.
    */
-  log(message: Message) {
-    console.log(message.getContent());
+  log(message: string) {
+    console.log(message);
   }
 }
