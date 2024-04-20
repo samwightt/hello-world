@@ -1,4 +1,4 @@
-/** * A constant representing a greeting message.
- * @type {string}
+/**
+ * A constant representing a greeting message.
  */
-export const GREETING = "Hello, world!";
+export const GREETING: string = "Hello, world!";
