@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.223.0/"
+  },
+  "tasks": {
+    "test:all": "deno test . --allow-read --allow-run"
+  }
+}
